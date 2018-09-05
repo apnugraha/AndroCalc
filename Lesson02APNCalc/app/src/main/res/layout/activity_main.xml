@@ -330,18 +330,19 @@
         <TextView
             android:id="@+id/hasilHitung"
             android:layout_width="290dp"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:layout_marginBottom="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginLeft="15dp"
             android:layout_marginRight="8dp"
             android:layout_marginStart="15dp"
             android:layout_marginTop="8dp"
-            android:textSize="36sp" />
+            android:fontFamily="@font/press_start_2p"
+            android:textSize="18sp" />
 
         <RelativeLayout
             android:layout_width="290dp"
-            android:layout_height="wrap_content"
+            android:layout_height="55dp"
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"
             android:orientation="horizontal">
@@ -356,7 +357,8 @@
                 android:layout_marginLeft="0dp"
                 android:layout_marginStart="0dp"
                 android:layout_marginTop="11dp"
-                android:textSize="36sp" />
+                android:fontFamily="@font/press_start_2p"
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/operator"
@@ -367,7 +369,8 @@
                 android:layout_marginStart="5dp"
                 android:layout_toEndOf="@+id/num1"
                 android:layout_toRightOf="@+id/num1"
-                android:textSize="36sp" />
+                android:fontFamily="@font/press_start_2p"
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/num2"
@@ -378,7 +381,8 @@
                 android:layout_marginStart="5dp"
                 android:layout_toEndOf="@+id/operator"
                 android:layout_toRightOf="@+id/operator"
-                android:textSize="36sp" />
+                android:fontFamily="@font/press_start_2p"
+                android:textSize="18sp" />
 
         </RelativeLayout>
 
