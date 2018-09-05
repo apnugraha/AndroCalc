@@ -196,7 +196,7 @@ public class MainActivity extends AppCompatActivity {
                         double dobNum1 = Double.parseDouble(num1x);
                         double dobNum2 = Double.parseDouble(num2x);
 
-                        if (ope.equalsIgnoreCase("x")) {
+                        if (ope.equalsIgnoreCase("*")) {
                             hsxl = dobNum1 * dobNum2;
                         } else if (ope.equalsIgnoreCase("/")) {
                             hsxl = dobNum1 / dobNum2;
