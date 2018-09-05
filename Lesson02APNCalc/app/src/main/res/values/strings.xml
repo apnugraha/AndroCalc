@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Lesson-02-APN-Calc</string>
+    <string name="maru">0</string>
+    <string name="ichi">1</string>
+    <string name="ni">2</string>
+    <string name="san">3</string>
+    <string name="yon">4</string>
+    <string name="go">5</string>
+    <string name="rokku">6</string>
+    <string name="nana">7</string>
+    <string name="hachi">8</string>
+    <string name="kyu">9</string>
+    <string name="dot">.</string>
+    <string name="multiplied">*</string>
+    <string name="divided">/</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="equals">=</string>
+    <string name="backspace">←</string>
+    <string name="clear">C</string>
+    <string name="copyrightt">©</string>
+</resources>
+
