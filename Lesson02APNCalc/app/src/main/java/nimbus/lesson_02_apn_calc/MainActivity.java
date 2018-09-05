@@ -39,17 +39,17 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //set text from buttons
-                if (operator.getText() + "" != ""){
-                    if (num2.getText() + "" != "0"){
-                        Button button = (Button) v;
-                        num2.append(button.getText());
+                    if (operator.getText() + "" != ""){
+                        if (! (num2.getText()+"").equals("0")) {
+                            Button button = (Button) v;
+                            num2.append(button.getText());
+                        }
+                    }else {
+                        if (! (num1.getText()+"").equals("0")) {
+                            Button button = (Button) v;
+                            num1.append(button.getText());
+                        }
                     }
-                }else {
-                    if (num1.getText() + "" != "0") {
-                        Button button = (Button) v;
-                        num1.append(button.getText());
-                    }
-                }
                 lastNumeric = true;
             }
         };
@@ -75,6 +75,7 @@ public class MainActivity extends AppCompatActivity {
                 } else {
 //                    num1.setText(num1.getText() + "");
                 }
+
                 if (operator.getText() + "" == ""){
                     if (num1.getText() + "" != "") {
                         Button button = (Button) v;
@@ -145,6 +146,9 @@ public class MainActivity extends AppCompatActivity {
                     } else {
                         String numView2 = num2.getText() + "";
                         num2.setText(numView2.substring(0,numView2.length()-1));
+                        if (numView2.substring(numView2.length()-1).equals(".")){
+                            lastDot = true;
+                        }
                     }
                 } else {
                     if (num1.getText() + "" == ""){
@@ -152,6 +156,9 @@ public class MainActivity extends AppCompatActivity {
                     } else {
                         String numView1 = num1.getText() + "";
                         num1.setText(numView1.substring(0,numView1.length()-1));
+                        if (numView1.substring(numView1.length()-1).equals(".")){
+                            lastDot = true;
+                        }
                     }
                 }
 //                lastNumeric = false;
